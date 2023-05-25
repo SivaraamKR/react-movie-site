@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Love+Ya+Like+A+Sister&display=swap');
+
+
+.header {
+    padding: .4rem 1.4rem;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    background-image: url('../../assets/images/fire.gif');
+    background-size: cover;
+    background-position: center center;
+    backdrop-filter: contrast(20%);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-radius: 0 0 30px 30px;
+    opacity: .8;
+    box-shadow:  2px 2px 20px black;
+    font-family: 'Lemon', cursive;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+a > span:hover {
+    color: rgb(47, 201, 252);
+   
+}
+
+.header__icon {
+    width: 50px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+

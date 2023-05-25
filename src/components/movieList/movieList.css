@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&display=swap');
+
+.movie__list {
+    padding: 0 3rem 3rem 3rem;
+    background-image: url('../../assets/images/bg-blur.jpg');
+    background-size:40%;
+    backdrop-filter: saturate(80%)
+    
+ 
+}
+
+.list__title {
+    margin: 0;
+
+font-size: 3rem;
+margin:  0;
+font-family: 'Permanent Marker', cursive;
+color: rgb(244, 244, 244);
+}
+
+.list__cards {
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}
